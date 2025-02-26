@@ -1,0 +1,170 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.page{
+    height: 650px;
+    width: 600px;
+    /* background:url(sc2.png); */
+   margin: auto;
+   overflow-y: scroll;
+   
+}
+.header{
+    height: 200px;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0px;
+    z-index: 11;
+    background: url(sc2.png);
+}
+.header h1{
+    font-size: 3.1rem;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 20px;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.search-bar input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    color: #999;
+}
+.search-bar button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #4285F4;
+}
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header .buttons {
+        margin-top: 10px;
+    }
+    .search-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .search-bar input {
+        margin-bottom: 10px;
+    }
+}
+
+.doctor{
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+     }
+
+     .card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        margin: 20px auto;
+        padding: 2px;
+        position: relative;
+       max-height: 300px; 
+       box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+       /* margin-left: 10pc;
+       margin-right: 10px; */
+      }
+    .card-header {
+        display: flex;
+        align-items: center;
+    }
+    .card-header img {
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin-right: 15px;
+    }
+    .card-header .badge {
+        background-color: #e0f7fa;
+        color: #00796b;
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .card-header .name {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .card-header .specialization {
+        font-size: 14px;
+        color: #757575;
+        margin: 0;
+    }
+    .card-body {
+        margin-top: 10px;
+    }
+    .card-body .info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .card-body .info i {
+        color: #757575;
+        margin-right: 5px;
+    }
+    .card-body .info span {
+        font-size: 14px;
+        color: #757575;
+    }
+    .card-body .location {
+        font-size: 14px;
+        color: #757575;
+        margin-bottom: 5px;
+    }
+    .card-body .distance {
+        font-size: 12px;
+        color: #388e3c;
+        font-weight: 500;
+        margin-bottom: 2px;
+        padding: 0;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .card-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5px;
+        height: 80px;
+    }
+    .card-footer .fees {
+        font-size: 18px;
+        color: #000;
+        font-weight: 500;
+    }
+    .card-footer .book-button {
+        background-color: #2979ff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 14px;
+        cursor: pointer;
+        margin-bottom: 14px;
+    }
+    .card-footer .book-button i {
+        margin-right: 5px;
+    }
+    .card-footer .availability {
+        font-size: 14px;
+        color: #757575;
+    }
