@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
+.nav{
+    width: 100%;
+    height: 140px;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    box-shadow: 0px 2px 2px 2px rgb(204, 203, 203);
+    padding: 20px;
+    position: fixed;
+    /* top: 0; */
+width: 100%;
+/* background: url(scn2.png); */
+
+}
+ 
+nav .logo{
+    margin-left: 45px;
+    font-size:22px;
+   
+}
+nav h1{
+    font-family: 'Lato', sans-serif;
+}
+ul li a{
+    margin-inline: 25px;
+     font-size: 20px;
+     
+}
+ul #home{
+    color: rgb(1, 190, 190);
+}
+ul li i{
+    font-size: 32px;
+}
+ul li i:hover{
+    color: rgb(87, 86, 86);
+    cursor: pointer;
+}
+ul li a:hover{
+     color: rgb(87, 86, 86);
+     cursor: pointer;
+
+    
+      
+}
+ul{
+    margin-right: 50px;
+    margin-top: 6px;
+}
+ 
+nav ul{
+    list-style: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.adver{
+    width: 100%;
+    height: 300px;
+    background: url(scg.png);
+    display: flex;
+}
+.talk{
+    width: 650px;
+    height: 100%;
+    margin-left: 40px;
+}
+.talk h1{
+    color: rgb(79, 77, 77);
+    font-size: 2.2rem;
+}
+.talk p{
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-family:sans-serif;
+}
+
+.talk button{
+    margin-top: 35px;
+    height: 50px;
+    width: 300px;
+border-radius: 10px;
+background: rgb(1, 190, 190);
+color: white;
+font-size: 1.5rem;
+}
+.go{
+    width: 750px;
+height: 100%;
+background: url(scg.png);
+
+}
+.go img{
+    object-fit: fill;
+    width: 650px;
+    height: 100%;
+    background: url(scg.png);
+}
+.mid{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.talk-to-d{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 100%;
+    width: 50%;
+    
+}
+.talk-to-d h2{
+    font-size: 1.7rem;
+    color:rgb(1, 190, 190) ;
+    margin-bottom: 30px;
+}
+.talk-to-d span{
+    color: gold;
+}
+.talk-to-d h1{
+    font-size: 2rem;
+    color: rgb(1, 190, 190);
+    margin-bottom: 30px;
+}
+.talk-to-d p{
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    color: rgb(70, 70, 70)
+}
+.talk-to-d button{
+    margin-top: 35px;
+    height: 50px;
+    width: 200px;
+border-radius: 10px;
+background: rgb(1, 190, 190);
+color: white;
+font-size: 1.5rem;
+}
+.gold{
+    height: 100%;
+    width: 50%;
+  display: flex;
+}
+.gold1{
+    width: 250px;
+    height: 100%;
+    
+}
+.gold2{
+    width: 50%;
+    height: 100%;
+margin-left: 1rem;
+margin-top: 30px;
+}
+.gold2 .card {
+    margin-top: 30px;
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px  rgb(1, 190, 190);
+}
+.card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.card h3 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.card p {
+    font-size: 14px;
+    margin: 0;
+    color: #666;
+}
+.card .highlight {
+    color: #ff0000;
+    font-weight: 700;
+}
+.card .sub-highlight {
+    color: #0000ff;
+    font-weight: 500;
+}
+.card .underline {
+    text-decoration: underline;
+}
+.card .yellow-line {
+    width: 40px;
+    height: 4px;
+    background-color: #ffd700;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.user{
+    width: 100%;
+    height: 400px;
+    background: green;
+    margin-top: 40px;
+}
+.que{
+    width: 100%;
+    margin-top: 50px;
+   
+}
+
+.container { 
+    /* position: absolute; 
+    top: 20%; 
+    left: 50%;  */
+    transform: translate(-50%, -20%); 
+    width: 60%; 
+    margin-left: 600px;
+    margin-top: 10px;
+  } 
+  h1 { 
+    text-align: center; 
+    font-family: "Roboto Slab", serif; 
+    font-size: 40px; 
+  } 
+ .container li { 
+    list-style: none; 
+    margin-bottom: 10px; 
+    padding: 15px; 
+    border-bottom: 2px solid rgb(1, 190, 190); 
+  } 
+  .container i{
+    color: rgb(1, 190, 190);
+  }
+  .question { 
+    font-family: "Spartan", sans-serif; 
+    font-size: 20px; 
+    font-weight: 600; 
+    margin-bottom: 10px; 
+    position: relative; 
+    color: #5c5a5a; 
+  } 
+  .icon-main { 
+    position: absolute; 
+    right: 0px; 
+    cursor: pointer; 
+  } 
+  .non-active { 
+    display: none; 
+    font-size: 1.5rem;
+  } 
+  .answer{ 
+    font-size: 17px; 
+    font-family: "Spartan", sans-serif; 
+  }
